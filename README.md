@@ -13,6 +13,5 @@ always @(posedge clk or posedge reset) begin
         else
             count <= count - 1;
     end
-
 endmodule
     
